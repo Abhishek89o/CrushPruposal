@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi Question Proposal 💖</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-200 to-red-200">
+
+  <!-- Card -->
+  <div class="bg-white p-8 rounded-2xl shadow-xl text-center w-[90%] max-w-md">
+    <h1 class="text-3xl font-bold text-pink-600 mb-4">Hey 😊</h1>
+
+    <!-- Questions -->
+    <p id="question" class="text-xl mb-6"></p>
+
+    <!-- Buttons -->
+    <div class="flex justify-center gap-4">
+      <button id="yesBtn" class="px-6 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition">
+        Yes 💖
+      </button>
+      <button id="noBtn" class="px-6 py-2 bg-gray-400 text-white rounded-full hover:bg-gray-500 transition relative">
+        No 🙈
+      </button>
+    </div>
+
+    <!-- Result -->
+    <p id="result" class="text-2xl font-semibold text-red-500 mt-6 hidden"></p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
